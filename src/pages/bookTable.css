@@ -1,0 +1,61 @@
+#table{
+    background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    height: 100vh;
+}
+
+
+
+
+
+
+
+.booktable {
+    margin-top: 0px;
+    /* background-color: aqua; */
+    padding-top: 73px;
+}
+
+.reserve {
+    position: relative;
+    margin: 0% auto;
+    min-height: 60%;
+    width: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    /* background-image: url(/src/pages/coffee.jpg); */
+    /* background-color: cadetblue; */
+    padding: 0px 0px 5px 15px;
+    /* background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%); */
+    /* background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%); */
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.reserve-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* .form {
+    margin-top: 10%;
+} */
+
+input {
+    background-color:lightcyan;
+
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 90%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+.form-submit{
+    margin-top: 20px;
+    background-color:lemonchiffon;
+}

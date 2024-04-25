@@ -1,0 +1,246 @@
+/* Navbar Css */
+
+#navbar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 40px; */
+    /* padding-right: 30px; */
+
+}
+
+.links{
+    padding-right: 90px;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.logo a {
+    color: white;
+    font-family: Clicker Script;
+    text-decoration: none;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* font-weight: bold; */
+}
+
+.links ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.links ul li a {
+    color: white;
+
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+.links ul li a:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.btn {
+    padding-right: 40px;
+}
+
+.signinbtn {
+    width: 100px;
+    height: 48px;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 24px;
+    line-height: normal;
+    background: #f9c06a;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.356);
+    cursor: pointer;
+}
+
+.signinbtn:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+.signupbtn {
+    width: 100px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    box-shadow: 0px 6px 12px 0px rgba(255, 255, 255, 0.356);
+    cursor: pointer;
+}
+
+.signupbtn:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+
+/* Home Css */
+
+#Home {
+    background-image: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%), url(/src/assets/coffee_image.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homecontent {
+    padding-top: 183px;
+    padding-left: 93px;
+
+
+}
+
+.p {
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 22px;
+    /* font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+
+    /* padding-top: 183px; */
+    /* padding-left: 93px; */
+}
+
+.p1 {
+    color: #fff;
+    font-family: Clicker Script;
+    font-size: 220px;
+    font-weight: 400;
+
+    /* padding-left: 93px; */
+
+
+
+}
+
+.p2 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 170% */
+    width: 527px;
+    height: 102px;
+
+    /* padding-left: 93px; */
+}
+
+.homebtn {
+    padding-top: 10px;
+    /* padding-left: 93px; */
+}
+
+.order {
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    width: 134px;
+    height: 48px;
+}
+
+/* About Css */
+
+.abtmain {
+    margin-left: 93px;
+    margin-right: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1366px;
+    height: 585px;
+}
+
+
+
+.abtcontent h2 {
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 54px;
+    /* font-style: normal; */
+    /* font-weight: 700; */
+    line-height: normal;
+}
+
+.abtcontent p {
+    width: 558px;
+    padding-top: 5px;
+    color: #707070;
+    font-size: 20px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: 34px;
+}
+
+.coffeemug {
+    width: 680px;
+    height: 580px;
+
+
+
+}
+
+/* Card Css */
+
+#Service {
+    /* background-color: #1E1E1E; */
+    /* width: 1180px; */
+    height: 600px;
+    margin-right: 93px;
+    margin-left: 93px;
+}
+
+.servicecontent h1 {
+
+    color: #603809;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.servicecontent p {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+
+
+    /* color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    170% */
+}

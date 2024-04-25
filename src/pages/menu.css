@@ -1,0 +1,81 @@
+.menu {
+  margin-top: 0px;
+  /* background-color: aqua; */
+  padding-top: 73px;
+  padding-bottom: 73px;
+  background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  
+  /* border-radius: 10px; */
+}
+
+
+.align-items-center {
+  /* align-items: center!important; */
+  background-color: azure;
+}
+
+
+
+
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* .card {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+} */
+
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+}
+
+.stats {
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+
+.articles {
+  /* font-size: 15px; */
+  font-weight: 600;
+  color: black;
+
+}
+
+.number1 {
+  font-weight: 500;
+}
+
+.followers {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number2 {
+  font-weight: 500;
+}
+
+.rating {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number3 {
+  font-weight: 500;
+}
